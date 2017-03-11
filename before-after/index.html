@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title>ADD TITLE</title>
+
+        <style>
+main {
+  padding: 30px;
+}
+
+blockquote {
+  max-width: 300px;
+}
+
+blockquote + .author {
+  margin-bottom: 60px;
+}
+
+.author {
+  color: grey;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote::after {
+  content: "”";
+}
+
+.author::before {
+  content: "–";
+  margin-right: 5px;
+}
+        </style>
+    </head>
+
+    <body>
+<main>
+  <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil repellendus obcaecati vero ab neque saepe eligendi dolorum sit eos quibusdam labore ullam animi sapiente quia itaque velit sed, asperiores?</blockquote>
+<p class='author'>Boaty McBoatface</p>
+
+  <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus totam voluptatem, explicabo fugiat dolor, earum est eveniet repellat quo, voluptate eum similique. Iste harum ipsam iusto officia. Explicabo, et!</blockquote>
+  <p class='author'>Foo Manchu Bar</p>
+
+<hr/>
+</main>
+
+
+    </body>
+</html>
+

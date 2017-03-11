@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 30px;
+}
+
+.foo {
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid green;
+    margin-bottom: 20px;
+}
+
+.bar {
+    display: inline-block;
+    font-size: 10px;
+    width: 100px;
+    background-color: cadetblue;
+    padding: 10px;
+}
